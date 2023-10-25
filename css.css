@@ -1,0 +1,16 @@
+h1 {
+  font-display: red;
+  font-size: 20px; }
+
+.Flexbox {
+  display: flex;
+  flex-wrap: wrap; }
+
+.Flexbox div {
+  background-color: red;
+  font-size: 20px; }
+.Flexbox .div {
+  background-color: green;
+  font-size: 20px; }
+
+/*# sourceMappingURL=css.css.map */

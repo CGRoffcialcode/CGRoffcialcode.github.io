@@ -1,0 +1,43 @@
+$color:red;
+$size: 20px ;
+$mar: 20px;
+$padding: 20px;
+$width: 200px;
+
+
+h1 {
+    font-display: $color;
+    font-size: $size;
+}
+
+
+.Flexbox {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Flexbox {
+
+
+
+div {
+    background-color: $color;
+    font-size: $size;
+    $mar: 20px;
+    $padding: 20px;
+    $width: 200px;
+
+ 
+
+}
+
+.div{
+    background-color: green;
+    font-size: $size;
+    $mar: 20px;
+    $padding: 20px;
+    $width: 200px;
+    
+}
+}
