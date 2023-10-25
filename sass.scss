@@ -41,3 +41,15 @@ div {
     
 }
 }
+
+@media (min-width: 600px) {
+    body {
+        background-color: rgb(233, 255, 134);
+    }
+    }
+    
+    @media (max-width: 599px) {
+        body {
+            background-color: rgb(118, 255, 164);
+        }
+    }

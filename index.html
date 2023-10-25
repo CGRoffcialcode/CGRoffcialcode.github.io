@@ -3,10 +3,16 @@
     
     <title>CGR offcial page</title>
  <style>
-        h1 {
+h1 {
   font-display: red;
   font-size: 20px; }
 
+  @media (min-width: 600px) {
+  body {
+    background-color: #e9ff86; } }
+@media (max-width: 599px) {
+  body {
+    background-color: #76ffa4; } }
 .Flexbox {
   display: flex;
   flex-wrap: wrap; }
@@ -14,7 +20,7 @@
 .Flexbox div {
   background-color: red;
   font-size: 20px; }
-.Flexbox .div {
+.Flexbox > .div {
   background-color: green;
   font-size: 20px; }
 </style>
