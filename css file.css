@@ -1,0 +1,286 @@
+
+h1{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+}
+
+.Foo{
+    align-self: center;
+    text-align: center;
+     
+}
+
+
+.title{
+  font-size: 100%;
+  text-align: center;
+}
+
+#null{
+  text-align: left;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.small{
+  font-size: 70%;
+}
+
+.center{
+  align-self: center;
+}
+.center1{
+  align-self: left;
+}
+.right{
+  text-align: justify ;
+}
+
+.important{
+  font-size: 1000%;
+  font-weight: bolder;
+}
+
+#flex{
+  display: inline-flexbox;
+}
+
+.Foop{
+  object-fit: cover;
+}
+
+
+button{
+  color: red;
+  background-color: rgb(55, 0, 255);
+  
+  width: 200px;
+  height: 100px;
+ display: block;
+
+}
+#se:hover{
+  background-color: red;
+  border-left: rgb(0, 191, 255);
+  
+  
+}
+
+* {
+  margin: 10;
+  padding: 10;
+  line-break: auto;
+  border-color: solid black;
+  border-radius: 5px;
+}
+html,
+body,
+iframe {
+  border-radius: 0 !important;
+}
+
+
+
+#se{
+  color: black;
+  text-align: center;
+  background-color: rgb(135, 0, 0);
+}
+
+
+  
+.Franceyep{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#aboutheauthor{
+
+  p{
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+  }
+}
+.version{
+  font-family: monospace;
+  color: black;
+  text-align: center;
+}
+
+#contents{
+  background-color: rgb(92, 142, 248);
+  text-align: center;
+  ul{
+    background-color: rgb(100, 120, 252);
+    
+    
+}
+}
+/* this just looks weird */
+a{
+  color: black;
+}
+/* dont get me wrong */
+#superbig{
+  font-size: 500%;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+}
+
+iframe{
+  border: 10px solid black;
+
+  
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.Franceyep1{
+  width: 100%;
+  height: 50%;
+}
+.staythere{
+  text-align: center;
+  position: fixed;
+  width: auto;
+  height: auto;
+  background-color: rgb(4, 0, 255);
+  border-left: 10px solid rgb(255, 0, 0);
+  
+}
+.staythere:hover{
+  background-color: red;
+  border-left: blue;
+  color: blue;
+}
+.donate{
+  
+  
+  
+  position: fixed;
+  width: auto;
+  height: auto;
+  background-color: rgb(4, 0, 255);
+  border-left: 10px solid rgb(0, 255, 251);
+}
+.donate:hover{
+  
+ 
+
+  background-color: red;
+  border-right: rgb(0, 234, 255);
+  color: blue;
+}
+
+#mybutton {
+  position: fixed;
+ 
+  right: 50px;
+}
+
+.special{
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(28, 89, 220);
+  
+
+}
+
+.hidden{
+visibility: hidden;
+
+}
+.dev{
+display: block;
+
+}
+
+.poop{
+display: block;
+}
+
+
+iframe{
+display: block;
+
+}
+.TeachingResources1{
+display: block;
+
+}
+.Happygone{
+display: block;
+
+}
+    
+
+
+
+
+
+.hackbeacuseineedit{
+visibility: hidden;
+}
+
+}
+@media only screen and (max-width: 600px) {
+body {
+  background-color: rgb(0, 8, 255);
+}
+
+.hidden{
+  visibility: visible;
+  
+
+}
+.poop{
+  display: none;
+}
+#wait{
+    display: none;
+}
+
+
+
+
+
+.dev{
+  display: none;
+
+}
+iframe{
+  display: none;
+
+}
+.TeachingResources1{
+  display: none;
+
+}
+.Happygone{
+  display: none;
+
+}
+.hackbeacuseineedit{
+  visibility: hidden;
+}
+
+
+
+
+}
